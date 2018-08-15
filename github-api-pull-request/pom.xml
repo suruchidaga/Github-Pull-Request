@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.api</groupId>
+	<artifactId>github-pull-request</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>GitHub Pull Request</name>
+	<url>https://github.com/suruchidaga/Github-Pull-Request</url>
+
+	<issueManagement>
+		<url>https://github.com/suruchidaga/Github-Pull-Request/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://github.com/suruchidaga/Github-Pull-Request</url>
+		<connection>scm:git://github.com/suruchidaga/Github-Pull-Request.git</connection>
+		<developerConnection>scm:git:git@github.com:suruchidaga/Github-Pull-Request.git</developerConnection>
+	</scm>
+
+	<developers>
+		<developer>
+			<email>suruchibahety@gmail.com</email>
+			<name>Suruchi Daga</name>
+			<url>https://github.com/suruchidaga</url>
+			<id>suruchidaga</id>
+		</developer>
+	</developers>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.mylyn.github</groupId>
+			<artifactId>org.eclipse.egit.github.core</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.1.3</version>
+</dependency>
+		<!-- dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8</version>
+			<scope>test</scope>
+		</dependency -->
+	</dependencies>
+</project>
